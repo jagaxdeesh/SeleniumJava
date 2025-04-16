@@ -9,7 +9,7 @@ import org.testng.annotations.Ignore;
 public class TestNG_4_TCs_Skip_Ignore_Disabled {
 	WebDriver driver;
 	
-  @Test(priority = 1,enabled = false)
+  @Test(priority = 1,enabled = true)
   public void facebook() {
 	  driver.get("https://www.facebook.com");  
   }

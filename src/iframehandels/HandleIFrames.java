@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.BeforeClass;
 
 public class HandleIFrames {
@@ -28,14 +29,13 @@ public class HandleIFrames {
 //    driver.switchTo().parentFrame();   // its move to the parent frame before frame 
   
       driver.findElement(By.xpath("//*[@id=\"getwebsitebtn\"]")).click();
-  
-  
+   
   }
   
   
   @BeforeClass
   public void beforeClass() {
-	  driver = new ChromeDriver();
+	  driver = new EdgeDriver();
       driver.manage().window().maximize(); 
   }
 
