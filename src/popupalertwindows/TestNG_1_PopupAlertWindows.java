@@ -45,7 +45,7 @@ public class TestNG_1_PopupAlertWindows {
 	public void method2() throws InterruptedException {
 		driver.get("https://www.techlearn.in/code/confirmation-dialog-box/");
 		driver.findElement(By.xpath("//button[@onclick=\"myFunction()\"]")).click();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.switchTo().alert().accept();
 	}
   

@@ -14,7 +14,7 @@ public class RCDCDDMOKF {
 	WebDriver driver;
 	
   	
-  @Test(enabled = false)
+  @Test(enabled = true)
   public void rightClick() throws InterruptedException {
 	  driver.get("https://www.techlearn.in/code");
 	  Thread.sleep(2000);
