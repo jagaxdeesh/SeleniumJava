@@ -12,7 +12,7 @@ import org.testng.annotations.AfterSuite;
 
 public class NewTest2 {
   @Test
-  public void f() {
+  public void facebook() {
   }
   @BeforeMethod
   public void beforeMethod() {
