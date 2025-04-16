@@ -24,7 +24,7 @@ public class TestNG_6_DependsOneMethods {
   @Test
   public void method2() throws InterruptedException {
 	  driver.get("https://www.techlearn.in/admin");
-	  Thread.sleep(2000);
+	  Thread.sleep(5000);
   }
   
   @BeforeTest
